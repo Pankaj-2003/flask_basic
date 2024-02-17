@@ -1,0 +1,13 @@
+prefix=D:/flask_demo/venv/Library
+exec_prefix=D:/flask_demo/venv/Library
+libdir=D:/flask_demo/venv/Library/lib
+sharedlibdir=D:/flask_demo/venv/Library/lib
+includedir=D:/flask_demo/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
